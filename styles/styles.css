@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div.header-section {
+    background-color: #1f2937;
+    color: #f9faf8;
+
+}
+
+.header-container {
+    margin: 0 auto;
+    width: 900px;
+    height: 500px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.header-top-half {
+    display: flex;
+    flex: 1 1 auto;
+    margin-bottom: 15px;
+}
+
+.header-bottom-half {
+    display: flex;
+}
+
+.logo-link {
+    width: 150px;
+    font-size: 24px;
+    display: flex;
+    flex: 1 1 auto;
+    margin-right: auto;
+}
+
+.other-links {
+    display: flex;
+    flex: 1 1 auto;
+    width: 350px;
+    justify-content: space-around;
+    font-size: 18px;
+
+}
+
+div.header-section {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header-section a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.bottom-half-left-container {
+    width: 450px;
+}
+
+div.bottom-half-left-container h1 {
+    font: 48px 'Hero Main Text', sans-serif;
+    font-weight: 800;
+}
+
+div.bottom-half-left-container p {
+    font: 18px 'Hero Main Text', sans-serif;
+    color: #e5e7eb;
+}
+
+.image-container {
+    width: 450px;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    color: white;
+    padding: 9px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.sign-up-button:hover {
+    background-color: #0b64f0;
+    color: white;
+}
+
+.random-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.random-info-section div {
+    display: flex;
+    margin: auto;
+}
+
+.random-info-boxes-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.random-info-boxes-container div {
+    height: 150px;
+    width: 200px;
+    flex-wrap: wrap;
+
+}
+
+.random-info-header {
+    font: 36px 'Hero Main Text', sans-serif;
+    color: #1f2937;
+}
+
+.box-content {
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+
+.quote-section {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 650px;
+    gap: 50px;
+    font: 36px 'Hero Main Text', sans-serif;
+    color: #1f2937;
+}
+
+.quote-container p {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    padding: 50px 25px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    height: 150px;
+    width: 950px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    color: #f9faf8;
+}
+
+.footer-button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-color: white;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #f9faf8;
+}
